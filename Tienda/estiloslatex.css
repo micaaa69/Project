@@ -1,0 +1,275 @@
+body{
+    margin:0px 0px;
+    background-color: #F8F5F1;
+}
+
+header{
+    background-color: #E1F1DD;
+    position: relative;
+    height: 4em;
+    /*overflow: auto;*/
+}
+
+header img{
+    margin-left: 40px;
+    margin-top: 3px;
+}
+
+header h1{
+    font-size: 30px;
+    margin-left: 100px;
+    margin-top: -50px;
+    color: #766161;
+}
+
+header nav{
+    float: right;
+}
+
+nav li{
+    float: left;
+    padding: 0px 10px;
+    margin: 0px 10px;
+    list-style-type: none;
+    position: relative;
+    right: 60px;
+    top: -60px;
+}
+
+li a{
+    text-decoration: none;
+    color: #766161;
+    font-size: 16px;
+}
+
+li a:hover{
+    color:#664242;
+}
+
+
+/* hover card 1*/
+.card {
+    width: 300px;
+    height: 440px;
+    padding: 0;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.1);
+    border-radius: 8px;
+    box-sizing: border-box;
+    overflow: hidden;
+    margin-top: 50px;
+    margin-left: 250px;
+  }
+  
+.card * {
+transition: 0.3s ease all;
+  }
+  
+.card img {
+    margin: 5px;
+    width: 300px;
+    height: 350px;
+    object-fit: cover;
+    display: block;
+    background-color: #F8F5F1;
+}
+  
+.card h3 {
+    margin: 0;
+    padding: 25px 12px 48px;
+    line-height: 32px;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    background-color: #ffe08c;
+    color: #766161;
+}
+  
+.card .focus-content {
+    display: block;
+    padding: 8px 12px;
+    background-color: #ffe08c;
+}
+  
+.card p {
+    margin: 0;
+    line-height: 1.5;
+    text-align: center;
+    color: #766161;
+}
+  
+.card:hover img, .card:focus-within img {
+    margin-top: -80px;
+}
+  
+.card:hover h3, .card:focus-within h3 {
+    padding: 10px 12px 20px;
+}
+  
+
+/*hover card 2*/
+.card2 {
+    width: 300px;
+    height: 440px;
+    padding: 0;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.1);
+    border-radius: 8px;
+    box-sizing: border-box;
+    overflow: hidden;
+    margin-top: -438px;
+    margin-left: 600px;
+  }
+  
+.card2 * {
+transition: 0.3s ease all;
+  }
+  
+.card2 img {
+    margin: 5px;
+    width: 300px;
+    height: 350px;
+    object-fit: cover;
+    display: block;
+}
+  
+.card2 h3 {
+    margin: 0;
+    padding: 25px 12px 48px;
+    line-height: 32px;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    background-color: #80cbeb;
+    color: #766161;
+}
+  
+.card2 .focus{
+    display: block;
+    padding: 8px 12px;
+    background-color: #80cbeb;
+}
+  
+.card2 p {
+    margin: 0;
+    line-height: 1.5;
+    text-align: center;
+    color: #766161;
+}
+  
+.card2:hover img, .card2:focus-within img {
+    margin-top: -80px;
+}
+  
+.card2:hover h3, .card2:focus-within h3 {
+    padding: 10px 12px 20px;
+}
+
+.card2{
+    float: none;
+}
+ 
+
+/*card3*/
+
+.card3 {
+    width: 300px;
+    height: 440px;
+    padding: 0;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.1);
+    border-radius: 8px;
+    box-sizing: border-box;
+    overflow: hidden;
+    margin-top: -438px;
+    margin-left: 950px;
+  }
+  
+.card3 * {
+    transition: 0.3s ease all;
+}
+  
+.card3 img {
+    margin: 5px;
+    width: 300px;
+    height: 350px;
+    object-fit: cover;
+    display: block;
+}
+  
+.card3 h3 {
+    margin: 0;
+    padding: 25px 12px 48px;
+    line-height: 32px;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    background-color: #ffb6dd;
+    color: #766161;
+}
+  
+.card3 .focus3{
+    display: block;
+    padding: 8px 12px;
+    background-color: #ffb6dd;
+}
+  
+.card3 p {
+    margin: 0;
+    line-height: 1.5;
+    text-align: center;
+    color: #766161;
+    background-color: #ffb6dd;
+}
+  
+.card3:hover img, .card3:focus-within img {
+    margin-top: -80px;
+}
+  
+.card3:hover h3, .card3:focus-within h3 {
+    padding: 10px 12px 20px;
+    background-color: #ffb6dd;
+}
+
+.card3{
+    float: none;
+}
+
+/*footer*/
+
+footer{
+    background-color: #766161;
+    position: relative;
+    top: -50;
+    right: 0;
+    margin-top: 200px;
+    padding: 10px 0px;
+    color: #E1F1DD;
+}
+
+footer h2{
+    padding: 0px 0px 0px 10px;
+}
+
+footer div{
+    color: #E1F1DD;
+}
+
+form{
+    text-align: center;
+}
+
+.iconos i{
+    font-size: 20px;
+    position: relative;
+    right: 250;
+    top: 10px;
+    margin-left: 350px;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+    align-items: center
+}
+
+.iconos i:hover{
+    background-color: #664242;
+    border: 2px solid #664242;
+    border-radius: 100%;
+
+}

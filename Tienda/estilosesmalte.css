@@ -1,0 +1,255 @@
+body{
+    margin:0px 0px;
+    background-color: #F8F5F1;
+}
+
+header{
+    background-color: #E1F1DD;
+    position: relative;
+    height: 4em;
+    /*overflow: auto;*/
+}
+
+header img{
+    margin-left: 40px;
+    margin-top: 3px;
+}
+
+header h1{
+    font-size: 30px;
+    margin-left: 100px;
+    margin-top: -50px;
+    color: #766161;
+}
+
+header nav{
+    float: right;
+}
+
+nav li{
+    float: left;
+    padding: 0px 10px;
+    margin: 0px 10px;
+    list-style-type: none;
+    position: relative;
+    right: 60px;
+    top: -60px;
+}
+
+li a{
+    text-decoration: none;
+    color: #766161;
+    font-size: 16px;
+}
+
+div.300-px-wide {
+    width: 50;
+}
+
+li a:hover{
+    color:#664242;
+}
+
+/*card 1*/
+
+.card{
+    perspective: 2400px ;
+    position: relative;
+    max-width: 300px;
+    height: 300px;
+    margin: 5px;
+    box-shadow: #664242;
+    background: transparent;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+.card_side {
+    height: 300px;
+    border-radius: 10px;
+    transition: 0.5s ease;
+    backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0px;
+    width:100%;
+    padding: 10px;
+    color: #766161;
+    text-align: justify;
+}
+
+.card_side.back{
+    transform: rotateY(-180deg);
+    background-color:  #e8a76a;
+    font-size: 18px;
+}
+
+.card_side.front{
+    background-color: #e8a76a;
+    background-image:url("https://www.cpp.com.pe/public/images/productos/pinturas-cpp-esmaltes-y-oleos-mate-pato-anticorrosivo-pintor-1.png");
+    background-size: 350px;
+}
+
+.card:hover .card_side.front{
+    transform: rotateY(180deg);
+}
+
+.card:hover .card_side.back{
+    transform: rotateY(0deg);
+}
+
+
+/*card 2*/
+
+.card2{
+    perspective: 2400px ;
+    position: relative;
+    max-width: 300px;
+    height: 300px;
+    margin: 5px;
+    box-shadow: #664242;
+    background: transparent;
+    margin-top: -305px;
+    margin-left: 600px;
+}
+.card2_side {
+    height: 300px;
+    border-radius: 10px;
+    transition: 0.5s ease;
+    backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0px;
+    width:100%;
+    padding: 10px;
+    color: #766161;
+    text-align: justify;
+}
+
+.card2_side.back{
+    transform: rotateY(-180deg);
+    background-color: rgb(97 196 225);
+    font-size: 18px;
+}
+
+.card2_side.front{
+    background-color: rgb(97 196 225);
+    background-image:url("https://www.cpp.com.pe/public/images/productos/pinturas-cpp-esmaltes-y-oleos-pintor-mate-anticorrosivo-pato-1.png");
+    background-size: 350px;
+}
+
+.card2:hover .card2_side.front{
+    transform: rotateY(180deg);
+}
+
+.card2:hover .card2_side.back{
+    transform: rotateY(0deg);
+}
+
+/*card 3*/
+
+
+.card3{
+    perspective: 2400px ;
+    position: relative;
+    max-width: 300px;
+    height: 300px;
+    margin: 5px;
+    box-shadow: #664242;
+    background: transparent;
+    margin-top: -305px;
+    margin-left: 1000px;
+}
+.card3_side {
+    height: 300px;
+    border-radius: 10px;
+    transition: 0.5s ease;
+    backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0px;
+    width:100%;
+    padding: 10px;
+    color:#766161;
+    text-align: justify;
+}
+
+.card3_side.back{
+    transform: rotateY(-180deg);
+    background-color:rgb(253 129 182);
+    font-size: 18px;
+}
+
+.card3_side.front{
+    background-color:  rgb(253 129 182);
+    background-image:url("https://www.cpp.com.pe/public/images/productos/pinturas-cpp-esmaltes-y-oleos-pintor-mate-pato-anticorrosivo-1.png");
+    background-size: 350px;
+}
+
+.card3:hover .card3_side.front{
+    transform: rotateY(180deg);
+}
+
+.card3:hover .card3_side.back{
+    transform: rotateY(0deg);
+}
+
+
+/*abajo*/
+
+.parrafo {
+    position: relative;
+    top: 80px;
+    margin: 0px 100px;
+    padding: 40px;
+    color: #766161;
+    background-color:  #CDC7BE;
+    text-align: justify;
+    border: 2px solid #CDC7BE;
+    border-radius: 8px;
+}
+
+.parrafo:hover{
+    color: #664242;
+}
+/*footer*/
+
+footer{
+    background-color: #766161;
+    position: relative;
+    top: -50;
+    right: 0;
+    margin-top: 200px;
+    padding: 10px 0px;
+    color: #E1F1DD;
+}
+
+footer h2{
+    padding: 0px 0px 0px 10px;
+}
+
+footer div{
+    color: #E1F1DD;
+}
+
+form{
+    text-align: center;
+}
+
+.iconos i{
+    font-size: 20px;
+    position: relative;
+    right: 250;
+    top: 10px;
+    margin-left: 350px;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+    align-items: center
+}
+
+.iconos i:hover{
+    background-color: #664242;
+    border: 2px solid #664242;
+    border-radius: 100%;
+
+}
+
